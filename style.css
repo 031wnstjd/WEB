@@ -1,0 +1,102 @@
+/*profile-section*/
+h3 {
+    font-size: 22px;
+    margin: 30px 100px;
+}
+.profile-section{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+
+    margin: 100px 100px;
+}
+
+#profile-picture{
+    width: 300px;
+    height: 400px;
+    margin-right: 60px;
+}
+
+/*Introduction-section*/
+.introduction>h2{
+    margin: 0px;
+    font-family: 'Georgia', sans-serif;
+    font-size: 35px;
+}
+
+.introduction>p{
+    font-size: 18px;
+}
+
+li{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+/*project-section*/
+.project-section{
+    margin: 150px 100px;
+}
+
+#projectName{
+    font-family: 'Georgia', sans-serif;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.title{
+    font-family: 'Georgia', sans-serif;
+    font-size: 22px;
+    margin: 30px 20px;
+}
+
+.project{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.project>iframe{
+    margin-left: 50px
+}
+
+#product1-picture{
+    width: 400px;
+    height: 315px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+#thesis-picture{
+    width: 400px;
+    height: 400px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+#flexlab-picture{
+    width: 750px;
+    height: 400px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+#flexlab-gif-updown{
+    width: 300px;
+    height: 195px;
+    margin-left: 20px;
+}
+
+#flexlab-gif-twisting{
+    width: 300px;
+    height: 200px;
+    margin-left: 20px;
+}
+
+/*footer-section*/
+a {
+    text-decoration: none; 
+    color: inherit;
+}
